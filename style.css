@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans';
+}
+
+/*====header====*/
+
+.header_grid {
+    margin: 0 auto;
+    max-width: 1211px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.header_info img {
+    float: left;
+}
+.info_text {
+    margin-left: 70px;
+    color: #6a6a6a;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info_text :first-child {
+    font-weight: 700;
+    padding-top: 7px;
+}
+hr {
+    margin: 30px auto;
+    width: 1190px;
+    height: 2px;
+    background-color: #c2c2c2;
+    opacity: 0.31; 
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;    
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 37px;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: black;
+}   
+
+.header_links {
+    margin: 0 auto;
+    max-width: 1190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social a {
+    margin-left: 20px;
+}
+
+/*====Medicare====*/
+
+.medicare {
+    margin: 0 auto;
+    max-width: 1600px;
+    max-height: 640px;
+    background-image: url(image/medicare_back_with_logo.png);
+    object-fit: contain;
+    
+}
+.medicare h1 {
+    padding-left: 15%;
+    padding-top: 180px;
+    max-width: 524px;
+    color: #474747;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-weight: 500;
+    letter-spacing: -1.19px;
+    text-align: center;
+}
+.medicare p {
+    padding-left: 19%;
+    padding-top: 37px;
+    padding-bottom: 42px;
+    max-width: 420px;
+    color: #3f3f3f;h
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+.medicare input {
+    margin-left: 26%;
+    padding-left: 27px;
+    width: 166px;
+    height: 47px;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #1a9bdc;
+    border-radius: 30px;
+    text-align: unset;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    letter-spacing: 0.32px;
+    margin-bottom: 182px;
+}
+
+.grid_benefits {
+    margin: 0 auto;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid_benefits_inside {
+    text-align: center;
+    color: #ffffff;;
+}
+.grid_benefits_inside h3 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+.grid_benefits_inside p {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 264px;
+    padding-top: 30px;
+    padding-bottom: 57px;
+}
+.grid_benefits_inside img {
+    padding-top: 77px;
+    padding-bottom: 22px;
+}
+.treatment {
+    background-color: #43b1d2;
+}
+.emergency {
+    background-color: #3fb6c6;
+}
+.staff {
+    background-color: #3cbbbb;
+}
+.doctors{
+    background-color: #37c3a8;
+}
+
+/*====Choose Us====*/
+.choose_us {
+    height: 856px;
+    max-width: 1211px;
+    margin: 0 auto;
+    background-image: url(image/choose_doctor.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.choose_us h2 {
+    text-align: center;
+    padding-top: 111px;
+    color: #494949;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.choose_us p {
+    padding-top: 31px;
+    margin: 0 auto;
+    max-width: 878px;
+    text-align: center;
+    color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.choose_grid {
+    margin-top: 116px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 170px);
+    justify-content: space-between;
+    grid-column-gap: 450px;
+    grid-row-gap: 97px;
+}
+.choose_grid_inside h3 {
+    padding-top: 27px;
+    margin-left: 94px;
+    color: #6f6f6e;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.82px; 
+}
+.choose_grid_inside img {
+    float: left;
+}
+
+/*====Progress====*/
+.progress {
+    max-width: 1600px;
+    height: 592px;
+    margin: 0 auto;
+    background-color: #0087be;
+    background-image: url(image/progress_back.png);
+}
+
+.grid_progress {
+    max-width: 1116px;
+    padding-top: 153px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 150px;
+}
+.progress_inside hr {
+    margin: 0 auto;
+    width: 104px;
+    height: 6px;
+    background-color: #fff;
+    opacity: 1;
+}
+.progress_inside {
+    text-align: center;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+.progress_inside h3 {
+    padding-top: 47px;
+    font-size: 60px;
+    font-weight: 500;
+}
+.progress_inside p {
+    padding-top: 59px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.heli h3 {
+    padding-top: 65px;
+}
+.heart h3 {
+    padding-top: 56px;
+}
+.breath h3 {
+    padding-top: 54px;
+}
+
+/*====Description====*/
+.description_grid {
+    padding-top: 100px;
+    max-width: 1211px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 35px;
+    grid-column-gap: 50px;
+    padding-bottom: 100px;
+}
+.description_grid p {
+    color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+}
+.description_grid h2 {
+    padding-bottom: 38px;
+    color: #494949;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+}
+.how_we_works {   
+    grid-column-start: 1;
+    grid-column-end: 3;    
+}
+.heart_treat {
+    background-color: #e2e2e2;
+    width: 100%;
+    height: 54px;
+    border-radius: 30px;
+    margin-bottom: 12px;
+}
+.heart_treat img {
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.heart_treat h3 {
+    padding-top: 16px;
+    margin-left: 66px;
+    color: #494949;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+}
+.active {
+    background-color: #0087be;
+}
+.active h3 {
+    color: #ffffff;
+}
+.active p {
+    padding-top: 30px;
+}
+.description_text h4 {
+    color: #6f6f6e;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1.21px;
+    padding-bottom: 27px;
+}
+.description_text p {
+    padding-top: 27px;
+    color: #6a6a6a;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.description_text span {
+    color: #0087be;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.38px;
+}
+.grid_button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid_button input {
+    padding-left: 20px;
+    width: 166px;
+    height: 47px;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #1a9bdc;
+    border-radius: 30px;
+    text-align: unset;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    letter-spacing: 0.32px;
+}
+
+/*====Gallery====*/
+
+.gallery {
+    margin: 0 auto;
+    max-width: 1600px;
+    background-color: #31b49d;
+    background-image: url(image/gallery/gallery_back.png);
+    text-align: center;
+}
+.gallery h2 {
+    padding-top: 94px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+}
+.gallery p {
+    margin: 0 auto;
+    margin-top: 38px;
+    max-width: 1116px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gallery_grid {
+    max-width: 1116px;
+    margin: 0 auto;
+    margin-top: 54px;
+    padding-bottom: 94px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 36px;
+}
+
+/*====Team====*/
+
+.team {
+    max-width: 1116px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team h2 {
+    padding-top: 148px;
+    color: #494949;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+}
+.team p {
+    margin-top: 48px;
+    color: #6a6a6a;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.team_grid {
+    margin-top: 84px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 29px;
+    padding-bottom: 134px;
+}
+.card h3 {
+    margin-top: 29px;
+    margin-bottom: 15px;
+    color: #6f6f6e;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+}
+.card span {
+    margin-top: 15px;
+    color: #6f6f6e;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -1.09px;
+}
+.team_social {
+    margin-top: 32px;
+}
+.team_social a {
+    color: #0087be;
+    margin-right: 10px;
+}
+.team_social i {
+    font-size: 25px;
+}
+
+/*====Offer====*/
+.offer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+}
+.offer_container {
+    max-width: 1116px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.offer_container h2 {
+    padding-top: 80px;
+    padding-bottom: 65px;
+}
+.offer_container input {
+    margin-top: 68px;
+    padding-left: 20px;
+    width: 166px;
+    height: 47px;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #1a9bdc;
+    border-radius: 30px;
+    text-align: unset;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    letter-spacing: 0.32px;
+}
+
+/*====Footer====*/
+footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #171717;
+    color: #ffffff;
+}
+footer h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.55px;
+    padding-bottom: 70px;
+}
+footer ul {
+    list-style-type: none;
+    list-style-image: url(image/foter_arrow.png);
+    opacity: 0.51;
+    margin-left: 18px;
+}
+footer p {
+    opacity: 0.51;
+}
+footer .social a i {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+}
+.footer_grid {
+    display: grid;
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+}
+.contact_info img {
+    float: left;
+    padding-top: 7px;
+}
+.contact_info {
+    margin-bottom: 51px;
+}
+.contact_info p {
+    padding-left: 78px;
+}
+footer ul li {
+    padding-bottom: 15px;
+}
+footer input {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: unset;
+}
+footer textarea {
+    background-color: transparent;
+    border: unset;
+    
+}
+footer hr {
+    width: 80%;
+    background-color: #c2c2c2;
+    opacity: 0.31;
+    margin: 0;
+    height: 1px;
+    margin-bottom: 20px;
+}
+.submit {
+    width: 125px;
+    height: 35px;
+    box-shadow: -4px 12px 40px rgba(0, 1, 1, 0.2);
+    background-color: #0087be;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+    border-radius: 15px;
+    margin-left: 20%;
+}
+.copy {
+    margin: 0 auto;
+    margin-top: 163px;
+    padding-bottom: 50px;
+    text-align: center;
+}
